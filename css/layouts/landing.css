@@ -89,7 +89,7 @@ label {
  */
 
 .pure-button {
-    background-color: #222;
+    background-color: #e88ab8;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
@@ -97,7 +97,7 @@ label {
 
 a.pure-button-primary {
     background: white;
-    color: #222;
+    color: #e88ab8;
     border-radius: 5px;
     font-size: 120%;
     animation: fadeIn 1s ease-in;
@@ -236,7 +236,7 @@ a.pure-button-primary {
 }
 
 .footer {
-    background: #111;
+    background: #222;
 }
 
 	.footer img{

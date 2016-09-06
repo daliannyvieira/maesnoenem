@@ -7,7 +7,6 @@
 body {
     line-height: 1.7em;
     color: #7f8c8d;
-    font-size: 13px;
     font: normal 14px/1.618em "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -149,8 +148,6 @@ a.pure-button-primary {
 .splash-container {
     background: #222 url("hero.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-color: #8c2952;
-    background-blend-mode: soft-light;
     z-index: 1;
     overflow: hidden;
     /* scroll-over effect */

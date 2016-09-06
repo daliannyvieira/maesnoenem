@@ -265,7 +265,7 @@ a.pure-button-primary {
 @media (max-width: 48em) {
 
     .splash {
-        top: 25px;
+        top: 130px;
         width: 90%;
         height: 50%;
     }
@@ -279,7 +279,6 @@ a.pure-button-primary {
 
     body {
         font-size: 16px;
-
     }
 
     .content {

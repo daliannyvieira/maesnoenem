@@ -89,7 +89,7 @@ label {
  */
 
 .pure-button {
-    background-color: #222;
+    background-color: #e88ab8;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
@@ -97,7 +97,7 @@ label {
 
 a.pure-button-primary {
     background: white;
-    color: #222;
+    color: #e88ab8;
     border-radius: 5px;
     font-size: 120%;
     animation: fadeIn 1s ease-in;
@@ -146,7 +146,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #222 url("hero.jpg") no-repeat center center fixed;
+    background: url("hero.jpg") no-repeat center center fixed;
     background-size: cover;
     z-index: 1;
     overflow: hidden;
@@ -236,7 +236,7 @@ a.pure-button-primary {
 }
 
 .footer {
-    background: #111;
+    background: #222;
 }
 
 	.footer img{
@@ -248,7 +248,7 @@ a.pure-button-primary {
 
 		.footer img:hover{
 			-webkit-filter: contrast(.9) brightness(1.1) saturate(1.1);
-            transform: scale(1.1);
+            transform: scale(1.05);
             border-radius: 2px;
 		    cursor: pointer;
 		}

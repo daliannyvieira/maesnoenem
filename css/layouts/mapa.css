@@ -1,0 +1,144 @@
+    #svg-map { margin-top: 50px; transform: scale(1.2); }
+    #svg-map path { fill:#e88ab8;}
+    #svg-map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+    #svg-map a{ text-decoration:none }
+    #svg-map a:hover { cursor:pointer; text-decoration:none; }
+    #svg-map a:hover path{ fill:#f5d042 !important;}
+    #svg-map .circle { fill:#e88ab8 }
+    #svg-map a:hover .circle { fill:#f5d042 !important; cursor:pointer }
+
+/*
+ * -- SPLASH STYLES --
+ */
+
+.splash-container {
+    background: #222 url("hero.jpg") no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    /* scroll-over effect */
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    position: absolute;
+    top: 80px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+}
+
+.splash-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-weight: 100;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in;
+}
+
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.05em;
+    animation: fadeIn 1s ease-in;
+}
+
+/*
+ * -- CONTENT STYLES --
+ */
+
+.content-wrapper {
+    /* scroll-over effect */
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+
+}
+
+.content-head {
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 1.5em 0 1em;
+}
+
+.content-subhead {
+    color: #e88ab8;
+}
+
+.forminho {
+	padding: 0 25%;
+}
+
+/*
+ * -- TABLET (AND DOWN) MEDIA QUERIES --
+ */
+
+@media (max-width: 48em) {
+
+	.forminho {
+	padding: 0 5%;
+	}
+
+    .splash {
+        top: 60px;
+        width: 90%;
+        height: 50%;
+    }
+
+}    
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ */
+@media (min-width: 48em) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 1em;
+    }
+
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+
+    .splash {
+    	top: 50px;
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-head {
+        font-size: 250%;
+    }
+
+    .l-box-lrg {
+        border: none;
+    }
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ */
+
+@media (min-width: 78em) {
+
+    .splash-head {
+        font-size: 300%;
+    }
+}
+
+

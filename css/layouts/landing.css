@@ -54,6 +54,20 @@ label {
     animation: fadeOut .6s ease-in;
 }
 
+.is-smaller {
+    margin: 0 auto;
+    max-width: 65em;
+    padding: 0 5%;
+}
+
+.is-smaller-2 {
+    padding: 0 20%;
+}
+
+.is-smaller-3 {
+    padding: 0 25%;
+}
+
 @keyframes fadeOut {
     0% {transform: translateY(10px)}
     25% {transform: translateY(-10px)}
@@ -101,6 +115,10 @@ a.pure-button-primary {
     border-radius: 5px;
     font-size: 120%;
     animation: fadeIn 1s ease-in;
+}
+
+a {
+    color: #e88ab8;
 }
 
 /*
@@ -229,6 +247,28 @@ a.pure-button-primary {
         margin-right: 7px;
     }
 
+.news {
+    padding: 10px;
+}
+
+    .news .article-news {
+        min-height: 250px;
+        padding: 15px 25px;
+        border: 2px solid #eee;
+        border-radius: 5px;
+        transition: all .1s ease-in-out;
+        cursor: pointer;
+    }
+
+    .news .article-news:hover {
+        transform: scale(1.05);
+    }
+
+.newsletter {
+    margin: 0 25%;
+    border: 2px solid #eee;
+}
+
 .ribbon {
 	margin-top: 2em;
     background: #222;
@@ -236,6 +276,7 @@ a.pure-button-primary {
 }
 
 .footer {
+    text-align: center;
     background: #222;
 }
 
@@ -268,6 +309,10 @@ a.pure-button-primary {
         top: 130px;
         width: 90%;
         height: 50%;
+    }
+
+    .is-smaller-3 {
+        padding: 0 5%;
     }
 
 }    

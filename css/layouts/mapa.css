@@ -99,7 +99,6 @@
     }
 
     .resultados input:checked + label,.ac-container input:checked + label:hover {
-        background: #f9f9f9;
         color: #e88ab8;
         text-shadow: 0 1px 1px rgba(255,255,255,0.6);
         box-shadow: 0 0 0 1px rgba(155,155,155,0.3),0 2px 2px rgba(0,0,0,0.1);
@@ -166,7 +165,7 @@
 }
 
     .resultado:hover {
-        color: #777;
+        color: #555;
         background: #f7f7f7;
         cursor: pointer;
     }

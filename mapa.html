@@ -23,6 +23,9 @@
 
     <link rel="stylesheet" href="css/layouts/landing.css">
     <link rel="stylesheet" href="css/layouts/mapa.css">
+    <style type="text/css">
+        
+    </style>
 </head>
 <body>
 
@@ -366,7 +369,7 @@
                   </svg>
             </div>
             
-            <div class="pure-u-1 is-smaller-3">
+            <div class="pure-u-1 is-smaller-2">
                 <h2 class="content-head">Encontre sua cidade</h2>
                 <form class="pure-form pure-form-stacked">
                     <fieldset>
@@ -377,21 +380,43 @@
                 </form>
                 <p>Dados coletados com <a href="https://docs.google.com/document/d/1OS6Bz3BdYRLkR5Rq56xHyE__lIfI32w-bk4R8AMWVMM/edit">Google Docs</a>.<p>
 
-                <ul class="resultados">
-                    <li class="article-resultados voluntaria">
-                        <h3 class="content-head">Dona Maria</h3>
-                        <p>
-                            São Paulo - SP
-                        </p>
-                    </li>
+            <section class="resultados">
+                <div>
+                    <input id="ac-1" name="accordion-1" type="radio" checked="">
+                    <label for="ac-1">São Paulo</label>
+                    <article class="ac-small resultados">
+                        <ul class="resultado">
+                            <li>Dona Joana</li>
+                            <li>São Paulo - SP</li>
+                        </ul>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-2" name="accordion-1" type="radio">
+                    <label for="ac-2">Rio de Janeiro</label>
+                    <article class="ac-small resultados">
+                        <ul class="resultado">
+                            <li>Dona Joana</li>
+                            <li>São Paulo - SP</li>
+                        </ul>
+                    </article>
+                </div>
+                <div>
+                    <input id="ac-3" name="accordion-1" type="radio">
+                    <label for="ac-3">Rio Grande do Norte</label>
+                    <article class="ac-large resultados">
+                        <ul class="resultado">
+                            <li>Dona Joana</li>
+                            <li>Caicó - RN</li>
+                        </ul>
+                        <ul class="resultado">
+                            <li>Dona Joana</li>
+                            <li>Caicó - RN</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
 
-                    <li class="article-resultados voluntaria">
-                        <h3 class="content-head">Dona Joana</h3>
-                        <p>
-                            Natal - RN
-                        </p>
-                    </li>
-                </ul>
             </div>
         </div>
 

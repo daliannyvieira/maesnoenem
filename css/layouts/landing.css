@@ -64,9 +64,6 @@ label {
     padding: 0 20%;
 }
 
-.is-smaller-3 {
-    padding: 0 25%;
-}
 
 @keyframes fadeOut {
     0% {transform: translateY(10px)}

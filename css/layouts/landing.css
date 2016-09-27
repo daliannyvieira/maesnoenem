@@ -261,9 +261,13 @@ a {
         transform: scale(1.05);
     }
 
-.newsletter {
-    margin: 0 25%;
-    border: 2px solid #eee;
+.pure-form > fieldset > h2 {
+    margin-top: 30px;
+}
+
+.pure-form button {
+    margin-top: 5px;
+    padding: 12px;
 }
 
 .ribbon {
